@@ -3,7 +3,7 @@ import { Navbar, Home, About, Courses, Teacher, Contact, Footer } from './compon
 function App() {
 
   return (
-    <>
+    <div className='font-Poppins bg-Solitude'>
       <Navbar/>
       <Home/>
       <About/>
@@ -11,7 +11,7 @@ function App() {
       <Teacher/>
       <Contact/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
